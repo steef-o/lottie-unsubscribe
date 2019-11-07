@@ -12,12 +12,12 @@ body {
         font-family: 'Open Sans', sans-serif;
 
         .card {
+            border-radius: 1%;
             @media screen and (min-width: $tablet) {
                 margin-top: 10rem;
             }
 
             .animation-container {
-                margin: 1rem auto;
                 position: relative;
                 height: 250px;
                 @media screen and (min-width: $tablet) {
@@ -41,11 +41,12 @@ body {
             .heading {
                 font-weight: 700;
                 font-size: 2rem;
+                line-height: normal;
                 text-align: center;
                 text-transform: none;
                 @media screen and (min-width: $desktop) {
                     font-size: 3rem;
-                    margin: 1rem 6rem;
+                    margin: 0 6rem 1rem 6rem;
                 }
             }
             .sub-heading {

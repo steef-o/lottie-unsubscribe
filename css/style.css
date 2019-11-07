@@ -6,13 +6,15 @@ body {
 body .custom-container {
     font-family: 'Open Sans', sans-serif;
 }
+body .custom-container .card {
+    border-radius: 1%;
+}
 @media screen and (min-width: 769px) {
     body .custom-container .card {
         margin-top: 10rem;
     }
 }
 body .custom-container .card .animation-container {
-    margin: 1rem auto;
     position: relative;
     height: 250px;
 }
@@ -36,13 +38,14 @@ body .custom-container .card .animation-container #unsubscribe-letter {
 body .custom-container .card .heading {
     font-weight: 700;
     font-size: 2rem;
+    line-height: normal;
     text-align: center;
     text-transform: none;
 }
 @media screen and (min-width: 1024px) {
     body .custom-container .card .heading {
         font-size: 3rem;
-        margin: 1rem 6rem;
+        margin: 0 6rem 1rem 6rem;
     }
 }
 body .custom-container .card .sub-heading {
