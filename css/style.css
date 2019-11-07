@@ -1,13 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap');
 body {
+    min-height: 100vh;
     background-image: linear-gradient(60deg, #543093, #d860ae);
 }
 body .custom-container {
     font-family: 'Open Sans', sans-serif;
-    min-height: 100vh;
-}
-body .custom-container .card {
-    height: fit-content;
 }
 @media screen and (min-width: 769px) {
     body .custom-container .card {
@@ -64,7 +61,7 @@ body .custom-container .card .buttons .secondary-button {
 }
 body .custom-container .card .buttons .button {
     font-size: 1.5rem;
-    margin: 0 1rem 2rem 1rem;
+    margin: 0 1rem 3rem 1rem;
 }
 
 .hide {
