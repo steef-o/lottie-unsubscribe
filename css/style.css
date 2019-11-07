@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap');
+body {
+    background-image: linear-gradient(60deg, #543093, #d860ae);
+}
+body .custom-container {
+    font-family: 'Open Sans', sans-serif;
+    min-height: 100vh;
+}
+body .custom-container .card {
+    height: fit-content;
+}
+@media screen and (min-width: 769px) {
+    body .custom-container .card {
+        margin-top: 10rem;
+    }
+}
+body .custom-container .card .animation-container {
+    margin: 1rem auto;
+    position: relative;
+    height: 250px;
+}
+@media screen and (min-width: 769px) {
+    body .custom-container .card .animation-container {
+        height: 400px;
+    }
+}
+body .custom-container .card .animation-container #bg-blob,
+body .custom-container .card .animation-container #unsubscribe-letter,
+body .custom-container .card .animation-container #heart-blob,
+body .custom-container .card .animation-container #confetti {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+body .custom-container .card .animation-container #unsubscribe-letter {
+    z-index: 2;
+}
+body .custom-container .card .heading {
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+    text-transform: none;
+}
+@media screen and (min-width: 1024px) {
+    body .custom-container .card .heading {
+        font-size: 3rem;
+        margin: 0 6rem;
+    }
+}
+body .custom-container .card .sub-heading {
+    text-align: center;
+    margin: 1rem 8rem 4rem 8rem;
+}
+body .custom-container .card .buttons {
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+}
+body .custom-container .card .buttons .primary-button {
+    background-color: #d860ae;
+}
+body .custom-container .card .buttons .secondary-button {
+    background-color: #eddfeb;
+}
+body .custom-container .card .buttons .button {
+    font-size: 1.5rem;
+    margin: 0 1rem 2rem 1rem;
+}
+
+.hide {
+    display: none;
+}
+
+/*# sourceMappingURL=style.css.map */

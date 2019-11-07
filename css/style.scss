@@ -1,0 +1,75 @@
+$primary-color: #d860ae;
+$secondary-color: #eddfeb;
+$desktop: 1024px;
+$tablet: 769px;
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap');
+
+body {
+    background-image: linear-gradient(60deg, #543093, $primary-color);
+    .custom-container {
+        font-family: 'Open Sans', sans-serif;
+        min-height: 100vh;
+        .card {
+            height: fit-content;
+            @media screen and (min-width: $tablet) {
+                margin-top: 10rem;
+            }
+
+            .animation-container {
+                margin: 1rem auto;
+                position: relative;
+                height: 250px;
+                @media screen and (min-width: $tablet) {
+                    height: 400px;
+                }
+
+                #bg-blob,
+                #unsubscribe-letter,
+                #heart-blob,
+                #confetti {
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                    transform: translateX(-50%) translateY(-50%);
+                }
+
+                #unsubscribe-letter {
+                    z-index: 2;
+                }
+            }
+            .heading {
+                font-weight: 700;
+                font-size: 2rem;
+                text-align: center;
+                text-transform: none;
+                @media screen and (min-width: $desktop) {
+                    font-size: 3rem;
+                    margin: 0 6rem;
+                }
+            }
+            .sub-heading {
+                text-align: center;
+                margin: 1rem 8rem 4rem 8rem;
+            }
+            .buttons {
+                margin-left: 0.75rem;
+                margin-right: 0.75rem;
+                .primary-button {
+                    background-color: $primary-color;
+                }
+                .secondary-button {
+                    background-color: $secondary-color;
+                }
+                .button {
+                    font-size: 1.5rem;
+                    margin: 0 1rem 2rem 1rem;
+                }
+            }
+        }
+    }
+}
+
+.hide {
+    display: none;
+}
