@@ -37,14 +37,14 @@ body .custom-container .card .animation-container #unsubscribe-letter {
 }
 body .custom-container .card .heading {
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 1.8rem;
     line-height: normal;
     text-align: center;
     text-transform: none;
 }
 @media screen and (min-width: 1024px) {
     body .custom-container .card .heading {
-        font-size: 3rem;
+        font-size: 2.5rem;
         margin: 0 6rem 1rem 6rem;
     }
 }
