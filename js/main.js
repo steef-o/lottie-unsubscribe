@@ -17,7 +17,7 @@ const letter = lottie.loadAnimation({
     renderer: 'svg',
     autoplay: false,
     loop: false,
-    path: 'data/letter.v05.json'
+    path: 'data/letter.v06.json'
 });
 
 const blob = lottie.loadAnimation({
