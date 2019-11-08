@@ -64,8 +64,14 @@ body .custom-container .card .buttons {
 body .custom-container .card .buttons .primary-button {
     background-color: #d860ae;
 }
+body .custom-container .card .buttons .primary-button:hover {
+    background-color: #ce3799;
+}
 body .custom-container .card .buttons .secondary-button {
     background-color: #eddfeb;
+}
+body .custom-container .card .buttons .secondary-button:hover {
+    background-color: #dbbed7;
 }
 body .custom-container .card .buttons .button {
     font-size: 1rem;

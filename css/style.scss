@@ -62,9 +62,15 @@ body {
                 margin-right: 0.75rem;
                 .primary-button {
                     background-color: $primary-color;
+                    &:hover {
+                        background-color: darken($primary-color, 10%);
+                    }
                 }
                 .secondary-button {
                     background-color: $secondary-color;
+                    &:hover {
+                        background-color: darken($secondary-color, 10%);
+                    }
                 }
                 .button {
                     font-size: 1rem;
